@@ -10,7 +10,8 @@
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
     "test": "npm run test-unit && npm run test-e2e-cli",
-    "test-unit": "jest"
+    "test-unit": "jest",
+    "test-e2e": "cypress open"
   },
   "keywords": [],
   "author": "Noroff",
