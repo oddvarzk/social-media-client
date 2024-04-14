@@ -27,6 +27,13 @@ Changes are delivered via an open Pull Request from the 'workflow' branch into t
 ### End-to-End (E2E) Testing
 
 -
+## Github Pages Deployement 
+ [![Deploy static content to Pages](https://github.com/oddvarzk/social-media-client/actions/workflows/pages.yml/badge.svg)](https://github.com/oddvarzk/social-media-client/actions/workflows/pages.yml)
+
+ [![Automated Unit Testing](https://github.com/oddvarzk/social-media-client/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/oddvarzk/social-media-client/actions/workflows/unit_testing.yml)
+
+ [![Automated E2E Testing](https://github.com/oddvarzk/social-media-client/actions/workflows/e2e_testing.yml/badge.svg)](https://github.com/oddvarzk/social-media-client/actions/workflows/e2e_testing.yml)
+
 
 ## Local Setup
 
