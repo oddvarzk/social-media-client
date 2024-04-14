@@ -21,17 +21,25 @@ Changes are delivered via an open Pull Request from the 'workflow' branch into t
 ## Testing
 
 ### Unit Testing
+- Let's user login and logout with valid credentials.
 
 - The logout function clears the token from browser storage.
 
 ### End-to-End (E2E) Testing
 
--
+- Login failed - denies user access, if the wrong credentials are used
 
-## Status Badges
+- Valid login function - Lets user log in with valid credentials
 
-- Automated Unit Testing
-- Automated E2E Testing
+-  Can log in and out - Lets user log in with valid credentials and then log out
+
+## Github Pages Deployement 
+ [![Deploy static content to Pages](https://github.com/oddvarzk/social-media-client/actions/workflows/pages.yml/badge.svg)](https://github.com/oddvarzk/social-media-client/actions/workflows/pages.yml)
+
+ [![Automated Unit Testing](https://github.com/oddvarzk/social-media-client/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/oddvarzk/social-media-client/actions/workflows/unit_testing.yml)
+
+ [![Automated E2E Testing](https://github.com/oddvarzk/social-media-client/actions/workflows/e2e_testing.yml/badge.svg)](https://github.com/oddvarzk/social-media-client/actions/workflows/e2e_testing.yml)
+
 
 ## Local Setup
 
@@ -41,4 +49,4 @@ Changes are delivered via an open Pull Request from the 'workflow' branch into t
 4. Install dependencies: `npm install`
 5. Run tests: `npm run test`
 
-If all tests pass, your local setup is complete.
+If all tests pass, your local setup is complete.](https://github.com/oddvarzk/social-media-client/pull/2)
