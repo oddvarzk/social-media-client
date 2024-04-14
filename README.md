@@ -28,11 +28,6 @@ Changes are delivered via an open Pull Request from the 'workflow' branch into t
 
 -
 
-## Status Badges
-
-- Automated Unit Testing
-- Automated E2E Testing
-
 ## Local Setup
 
 1. Ensure Node.js is installed on your machine.
