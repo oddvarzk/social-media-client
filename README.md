@@ -21,12 +21,18 @@ Changes are delivered via an open Pull Request from the 'workflow' branch into t
 ## Testing
 
 ### Unit Testing
+- Let's user login and logout with valid credentials.
 
 - The logout function clears the token from browser storage.
 
 ### End-to-End (E2E) Testing
 
--
+- Login failed - denies user access, if the wrong credentials are used
+
+- Valid login function - Lets user log in with valid credentials
+
+-  Can log in and out - Lets user log in with valid credentials and then log out
+
 ## Github Pages Deployement 
  [![Deploy static content to Pages](https://github.com/oddvarzk/social-media-client/actions/workflows/pages.yml/badge.svg)](https://github.com/oddvarzk/social-media-client/actions/workflows/pages.yml)
 
